@@ -55,26 +55,28 @@ backButton.addEventListener('click', () => { position--; showSnapshot(); });
 document.getElementById('trace-reset').addEventListener('click', () => { position = 0; showSnapshot(); });
 
 const artifacts = {
+  pcb: {
+    source: 'assets/grabber-pcb.svg',
+    alt: 'Routed ESP32 motor-controller PCB with red top-layer and blue bottom-layer copper',
+    caption: '01 / Reconstructed two-layer PCB layout. Red top copper, blue bottom copper. Designed, unbuilt.'
+  },
+  board3d: {
+    source: 'assets/grabber-pcb-3d.png',
+    alt: '3D rendering of the unpopulated controller carrier board, not a manufactured-board photo',
+    caption: '02 / Bare-board 3D rendering from the editable PCB geometry. Modules and components are not populated.'
+  },
   cad: {
     source: 'assets/grabber-cad.webp',
     alt: 'Team CAD assembly of the geared grabber and telescoping rod',
-    caption: '01 / Team CAD assembly. Twin geared claws mounted to the telescoping arm.'
+    caption: '03 / Team CAD assembly. Twin geared claws mounted to the telescoping arm.'
   },
-  prototype: {
-    source: 'assets/grabber-prototype.webp',
-    alt: 'Physical prototype showing PLA claws and gears on a wooden end-effector platform',
-    caption: '02 / Physical team prototype. Printed claws and gears on the wooden platform, with grip material added to the jaws.'
-  },
+
   drawing: {
     source: 'assets/claw-drawing.webp',
     alt: 'Team engineering drawing excerpt showing orthographic and isometric views of the claw',
-    caption: '03 / Team claw drawing, excerpted from the final report. Geometry, dimensions, and the contact surfaces before fabrication.'
+    caption: '04 / Team claw drawing, excerpted from the final report. Geometry, dimensions, and the contact surfaces before fabrication.'
   },
-  concept: {
-    source: 'assets/daniel-concept.webp',
-    alt: 'Daniel’s hand-drawn concept exploring a handle, hinge, and mechanical grabber',
-    caption: '04 / My early concept sketch. Exploring grip, hinge placement, and the connection between handle and end effector.'
-  }
+
 };
 
 document.querySelectorAll('.artifact-choice').forEach(button => {

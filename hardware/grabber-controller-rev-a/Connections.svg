@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1480" viewBox="0 0 1560 1480">
+<rect width="100%" height="100%" fill="#fbfaf4"/>
+<text x="40" y="42" font-size="22" fill="#222" text-anchor="start" font-family="monospace">GRABBER CONTROLLER - NET-LABELLED CONNECTION SCHEMATIC</text>
+<text x="40" y="68" font-size="12" fill="#555" text-anchor="start" font-family="monospace">REV A / UNBUILT RECONSTRUCTION / repeated net labels are electrically connected</text>
+<rect x="50" y="115" width="275" height="346" fill="white" stroke="#444"/>
+<text x="60" y="137" font-size="11" fill="#222" text-anchor="start" font-family="monospace">U1 / ESP32-DevKitC V4 / WROOM</text>
+<text x="62" y="161" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M112 157 H337" stroke="#478757" fill="none"/>
+<text x="343" y="161" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<text x="62" y="183" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 7</text>
+<path d="M112 179 H337" stroke="#478757" fill="none"/>
+<text x="343" y="183" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_OPEN</text>
+<text x="62" y="205" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 8</text>
+<path d="M112 201 H337" stroke="#478757" fill="none"/>
+<text x="343" y="205" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_CLOSE</text>
+<text x="62" y="227" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 9</text>
+<path d="M112 223 H337" stroke="#478757" fill="none"/>
+<text x="343" y="227" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_STOP</text>
+<text x="62" y="249" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 10</text>
+<path d="M112 245 H337" stroke="#478757" fill="none"/>
+<text x="343" y="249" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">PWMA</text>
+<text x="62" y="271" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 11</text>
+<path d="M112 267 H337" stroke="#478757" fill="none"/>
+<text x="343" y="271" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">PWMB</text>
+<text x="62" y="293" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 12</text>
+<path d="M112 289 H337" stroke="#478757" fill="none"/>
+<text x="343" y="293" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">AIN2</text>
+<text x="62" y="315" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 14</text>
+<path d="M112 311 H337" stroke="#478757" fill="none"/>
+<text x="343" y="315" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="62" y="337" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 15</text>
+<path d="M112 333 H337" stroke="#478757" fill="none"/>
+<text x="343" y="337" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">AIN1</text>
+<text x="62" y="359" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 20</text>
+<path d="M112 355 H337" stroke="#478757" fill="none"/>
+<text x="343" y="359" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="62" y="381" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 21</text>
+<path d="M112 377 H337" stroke="#478757" fill="none"/>
+<text x="343" y="381" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">ENABLE_REQUEST</text>
+<text x="62" y="403" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 26</text>
+<path d="M112 399 H337" stroke="#478757" fill="none"/>
+<text x="343" y="403" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="62" y="425" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 30</text>
+<path d="M112 421 H337" stroke="#478757" fill="none"/>
+<text x="343" y="425" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BIN2</text>
+<text x="62" y="447" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 31</text>
+<path d="M112 443 H337" stroke="#478757" fill="none"/>
+<text x="343" y="447" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BIN1</text>
+<rect x="555" y="115" width="275" height="390" fill="white" stroke="#444"/>
+<text x="565" y="137" font-size="11" fill="#222" text-anchor="start" font-family="monospace">U2 / SparkFun TB6612FNG ROB-14450</text>
+<text x="567" y="161" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M617 157 H842" stroke="#478757" fill="none"/>
+<text x="848" y="161" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM</text>
+<text x="567" y="183" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M617 179 H842" stroke="#478757" fill="none"/>
+<text x="848" y="183" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<text x="567" y="205" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 3</text>
+<path d="M617 201 H842" stroke="#478757" fill="none"/>
+<text x="848" y="205" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="567" y="227" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 4</text>
+<path d="M617 223 H842" stroke="#478757" fill="none"/>
+<text x="848" y="227" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MA1</text>
+<text x="567" y="249" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 5</text>
+<path d="M617 245 H842" stroke="#478757" fill="none"/>
+<text x="848" y="249" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MA2</text>
+<text x="567" y="271" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 6</text>
+<path d="M617 267 H842" stroke="#478757" fill="none"/>
+<text x="848" y="271" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MB2</text>
+<text x="567" y="293" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 7</text>
+<path d="M617 289 H842" stroke="#478757" fill="none"/>
+<text x="848" y="293" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MB1</text>
+<text x="567" y="315" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 8</text>
+<path d="M617 311 H842" stroke="#478757" fill="none"/>
+<text x="848" y="315" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="567" y="337" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 9</text>
+<path d="M617 333 H842" stroke="#478757" fill="none"/>
+<text x="848" y="337" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="567" y="359" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 10</text>
+<path d="M617 355 H842" stroke="#478757" fill="none"/>
+<text x="848" y="359" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">PWMB</text>
+<text x="567" y="381" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 11</text>
+<path d="M617 377 H842" stroke="#478757" fill="none"/>
+<text x="848" y="381" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BIN2</text>
+<text x="567" y="403" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 12</text>
+<path d="M617 399 H842" stroke="#478757" fill="none"/>
+<text x="848" y="403" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BIN1</text>
+<text x="567" y="425" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 13</text>
+<path d="M617 421 H842" stroke="#478757" fill="none"/>
+<text x="848" y="425" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">STBY</text>
+<text x="567" y="447" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 14</text>
+<path d="M617 443 H842" stroke="#478757" fill="none"/>
+<text x="848" y="447" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">AIN1</text>
+<text x="567" y="469" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 15</text>
+<path d="M617 465 H842" stroke="#478757" fill="none"/>
+<text x="848" y="469" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">AIN2</text>
+<text x="567" y="491" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 16</text>
+<path d="M617 487 H842" stroke="#478757" fill="none"/>
+<text x="848" y="491" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">PWMA</text>
+<rect x="45" y="690" width="275" height="82" fill="white" stroke="#444"/>
+<text x="55" y="712" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J1 / MOTOR POWER 6-12V</text>
+<text x="57" y="736" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M107 732 H332" stroke="#478757" fill="none"/>
+<text x="338" y="736" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM_RAW</text>
+<text x="57" y="758" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M107 754 H332" stroke="#478757" fill="none"/>
+<text x="338" y="758" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<rect x="430" y="690" width="275" height="82" fill="white" stroke="#444"/>
+<text x="440" y="712" font-size="11" fill="#222" text-anchor="start" font-family="monospace">F1 / 2A RESETTABLE FUSE</text>
+<text x="442" y="736" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M492 732 H717" stroke="#478757" fill="none"/>
+<text x="723" y="736" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM_RAW</text>
+<text x="442" y="758" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M492 754 H717" stroke="#478757" fill="none"/>
+<text x="723" y="758" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM</text>
+<rect x="815" y="690" width="275" height="82" fill="white" stroke="#444"/>
+<text x="825" y="712" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J2 / MOTOR A</text>
+<text x="827" y="736" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M877 732 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="736" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MA1</text>
+<text x="827" y="758" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M877 754 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="758" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MA2</text>
+<rect x="1200" y="690" width="275" height="82" fill="white" stroke="#444"/>
+<text x="1210" y="712" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J3 / MOTOR B</text>
+<text x="1212" y="736" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M1262 732 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="736" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MB1</text>
+<text x="1212" y="758" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M1262 754 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="758" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">MB2</text>
+<rect x="45" y="872" width="275" height="82" fill="white" stroke="#444"/>
+<text x="55" y="894" font-size="11" fill="#222" text-anchor="start" font-family="monospace">C1 / 220uF 25V</text>
+<text x="57" y="918" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M107 914 H332" stroke="#478757" fill="none"/>
+<text x="338" y="918" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM</text>
+<text x="57" y="940" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M107 936 H332" stroke="#478757" fill="none"/>
+<text x="338" y="940" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<rect x="430" y="872" width="275" height="82" fill="white" stroke="#444"/>
+<text x="440" y="894" font-size="11" fill="#222" text-anchor="start" font-family="monospace">C2 / 100nF 50V</text>
+<text x="442" y="918" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M492 914 H717" stroke="#478757" fill="none"/>
+<text x="723" y="918" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">VM</text>
+<text x="442" y="940" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M492 936 H717" stroke="#478757" fill="none"/>
+<text x="723" y="940" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<rect x="815" y="872" width="275" height="82" fill="white" stroke="#444"/>
+<text x="825" y="894" font-size="11" fill="#222" text-anchor="start" font-family="monospace">C3 / 100nF 16V</text>
+<text x="827" y="918" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M877 914 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="918" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<text x="827" y="940" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M877 936 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="940" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<rect x="1200" y="872" width="275" height="126" fill="white" stroke="#444"/>
+<text x="1210" y="894" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J4 / OPEN / CLOSE / STOP</text>
+<text x="1212" y="918" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M1262 914 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="918" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="1212" y="940" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M1262 936 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="940" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_OPEN</text>
+<text x="1212" y="962" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 3</text>
+<path d="M1262 958 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="962" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_CLOSE</text>
+<text x="1212" y="984" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 4</text>
+<path d="M1262 980 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="984" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_STOP</text>
+<rect x="45" y="1054" width="275" height="82" fill="white" stroke="#444"/>
+<text x="55" y="1076" font-size="11" fill="#222" text-anchor="start" font-family="monospace">R1 / 10k</text>
+<text x="57" y="1100" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M107 1096 H332" stroke="#478757" fill="none"/>
+<text x="338" y="1100" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_OPEN</text>
+<text x="57" y="1122" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M107 1118 H332" stroke="#478757" fill="none"/>
+<text x="338" y="1122" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<rect x="430" y="1054" width="275" height="82" fill="white" stroke="#444"/>
+<text x="440" y="1076" font-size="11" fill="#222" text-anchor="start" font-family="monospace">R2 / 10k</text>
+<text x="442" y="1100" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M492 1096 H717" stroke="#478757" fill="none"/>
+<text x="723" y="1100" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_CLOSE</text>
+<text x="442" y="1122" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M492 1118 H717" stroke="#478757" fill="none"/>
+<text x="723" y="1122" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<rect x="815" y="1054" width="275" height="82" fill="white" stroke="#444"/>
+<text x="825" y="1076" font-size="11" fill="#222" text-anchor="start" font-family="monospace">R3 / 10k</text>
+<text x="827" y="1100" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M877 1096 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="1100" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">BTN_STOP</text>
+<text x="827" y="1122" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M877 1118 H1102" stroke="#478757" fill="none"/>
+<text x="1108" y="1122" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<rect x="1200" y="1054" width="275" height="82" fill="white" stroke="#444"/>
+<text x="1210" y="1076" font-size="11" fill="#222" text-anchor="start" font-family="monospace">R4 / 10k STANDBY PULLDOWN</text>
+<text x="1212" y="1100" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M1262 1096 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="1100" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">STBY</text>
+<text x="1212" y="1122" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M1262 1118 H1487" stroke="#478757" fill="none"/>
+<text x="1493" y="1122" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<rect x="45" y="1236" width="275" height="82" fill="white" stroke="#444"/>
+<text x="55" y="1258" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J5 / ARM LINK</text>
+<text x="57" y="1282" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M107 1278 H332" stroke="#478757" fill="none"/>
+<text x="338" y="1282" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">ENABLE_REQUEST</text>
+<text x="57" y="1304" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M107 1300 H332" stroke="#478757" fill="none"/>
+<text x="338" y="1304" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">STBY</text>
+<rect x="430" y="1236" width="275" height="82" fill="white" stroke="#444"/>
+<text x="440" y="1258" font-size="11" fill="#222" text-anchor="start" font-family="monospace">J6 / 3V3 / GND TEST</text>
+<text x="442" y="1282" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 1</text>
+<path d="M492 1278 H717" stroke="#478757" fill="none"/>
+<text x="723" y="1282" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">3V3</text>
+<text x="442" y="1304" font-size="10" fill="#555" text-anchor="start" font-family="monospace">PIN 2</text>
+<path d="M492 1300 H717" stroke="#478757" fill="none"/>
+<text x="723" y="1304" font-size="10" fill="#225931" text-anchor="start" font-family="monospace">GND</text>
+<text x="1060" y="155" font-size="14" fill="#222" text-anchor="start" font-family="monospace">POWER / CONTROL NOTES</text>
+<text x="1060" y="185" font-size="12" fill="#333" text-anchor="start" font-family="monospace">U1 powered through its own USB port.</text>
+<text x="1060" y="210" font-size="12" fill="#333" text-anchor="start" font-family="monospace">J1 supplies only the motor rail.</text>
+<text x="1060" y="235" font-size="12" fill="#333" text-anchor="start" font-family="monospace">All grounds share GND.</text>
+<text x="1060" y="260" font-size="12" fill="#333" text-anchor="start" font-family="monospace">J4 switches close to GND.</text>
+<text x="1060" y="285" font-size="12" fill="#333" text-anchor="start" font-family="monospace">R1-R3 pull button inputs to 3V3.</text>
+<text x="1060" y="310" font-size="12" fill="#333" text-anchor="start" font-family="monospace">R4 defaults STBY low.</text>
+<text x="1060" y="335" font-size="12" fill="#333" text-anchor="start" font-family="monospace">Remove J5 shunt to disable driver.</text>
+<text x="1060" y="380" font-size="14" fill="#222" text-anchor="start" font-family="monospace">LOAD ASSUMPTION</text>
+<text x="1060" y="405" font-size="12" fill="#333" text-anchor="start" font-family="monospace">6-12 V brushed-DC bench loads.</text>
+<text x="1060" y="430" font-size="12" fill="#333" text-anchor="start" font-family="monospace">Initial target: &lt;=0.5 A per channel.</text>
+<text x="1060" y="455" font-size="12" fill="#333" text-anchor="start" font-family="monospace">Motor stall current must be measured.</text>
+<text x="1060" y="480" font-size="12" fill="#333" text-anchor="start" font-family="monospace">No current or grip-force sensing.</text>
+<text x="40" y="1445" font-size="11" fill="#555" text-anchor="start" font-family="monospace">PinConnections.csv is the full connection table. Original gripper motor compatibility, thermal behavior, and assembly fit remain unverified.</text>
+</svg>

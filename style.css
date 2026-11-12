@@ -238,3 +238,17 @@ footer .mono { color: var(--muted); font-size: 9px; }
   nav { gap: 10px; font-size: 11px; }
   .wordmark { font-size: 26px; }
 }
+
+.artifact-stage[data-view="pcb"] { background: #141b24; height: 620px; padding: 14px; }
+.artifact-stage[data-view="board3d"] { background: #e1e1d8; }
+.pcb-downloads { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: -10px 0 28px; }
+.pcb-downloads .underlink { margin-top: 0; }
+.prototype-history { border-block: 1px solid var(--line); margin-top: 24px; padding: 18px 0; }
+.prototype-history summary { cursor: pointer; font-size: 14px; }
+.prototype-history .prose { max-width: 800px; padding-top: 18px; }
+.prototype-history p + p { margin-top: 12px; }
+.hero-exhibit:has(.hero-object[src$="grabber-pcb-3d.png"]) .hero-object { max-height: 400px; }
+@media(max-width:760px) {
+ .artifact-stage[data-view="pcb"] { height: 390px; padding: 4px; }
+ .pcb-downloads { flex-direction: column; gap: 16px; }
+}

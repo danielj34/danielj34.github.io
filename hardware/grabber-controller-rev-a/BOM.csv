@@ -1,0 +1,17 @@
+Reference,Value,Specification
+U1,ESP32-DevKitC V4 / WROOM,Socketed development module; USB-powered; 2 x 19 pins; 25.4 mm row spacing
+U2,SparkFun TB6612FNG ROB-14450,"Socketed dual motor-driver module, ROB-14450; 2 x 8 pins, 15.24 mm rows"
+J1,MOTOR POWER 6-12V,"2-pin 5.08 mm terminal, >= 3 A / 25 V"
+F1,2A RESETTABLE FUSE,"Radial PTC, 2 A hold; verify trip curve for selected loads"
+J2,MOTOR A,"2-pin 5.08 mm terminal, >= 3 A / 25 V"
+J3,MOTOR B,"2-pin 5.08 mm terminal, >= 3 A / 25 V"
+C1,220uF 25V,Radial polarized electrolytic; 5.08 mm pitch; 10 mm maximum diameter
+C2,100nF 50V,Radial ceramic X7R; 2.54 mm pitch
+C3,100nF 16V,Radial ceramic X7R; logic-rail bypass; 2.54 mm pitch
+J4,OPEN / CLOSE / STOP,1 x 4 header; external normally-open dry-contact switches to GND
+R1,10k,"Axial 10 kOhm, 1%, 0.25 W; 7.62 mm pitch"
+R2,10k,"Axial 10 kOhm, 1%, 0.25 W; 7.62 mm pitch"
+R3,10k,"Axial 10 kOhm, 1%, 0.25 W; 7.62 mm pitch"
+R4,10k STANDBY PULLDOWN,"Axial 10 kOhm, 1%, 0.25 W; driver disabled when enable link is open"
+J5,ARM LINK,1 x 2 header and removable shunt; open link forces standby
+J6,3V3 / GND TEST,1 x 2 2.54 mm test header; measurement only
