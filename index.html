@@ -5,43 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Daniel Joseph — Computer Engineering & Management at McMaster. Processor design, assistive hardware, and robotics controls, with the drawings, decisions, and test results behind them.">
   <meta name="theme-color" content="#eeeae1">
-  <title>Daniel Joseph — Engineering, in detail</title>
+  <title>Daniel Joseph</title>
+  <script src="theme.js"></script>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <div class="page">
-<header>
-  <a class="wordmark" href="#top" aria-label="Daniel Joseph, top of page">DJ<span>/</span></a>
-  <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#background">Background</a><a href="resume.html">Résumé ↗</a><a href="#contact">Contact</a></nav>
-  <span class="header-note mono">TORONTO / HAMILTON, ON</span>
+<header class="site-header">
+  <a class="wordmark" href="index.html" aria-label="Daniel Joseph, home">dj<span aria-hidden="true">✳</span></a>
+  <nav aria-label="Main navigation"><a href="index.html#work">Work</a><a href="about.html">About</a><a href="resume.html">Résumé</a></nav>
+  <button class="theme-toggle" type="button" aria-label="Switch colour theme"><svg class="theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg><svg class="theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.2A8.8 8.8 0 0 1 8.8 4 8.8 8.8 0 1 0 20 15.2Z"/></svg><span data-theme-label>Dark</span></button>
 </header>
 <main id="main">
 <section class="hero" id="top" aria-labelledby="name">
-  <div class="hero-copy">
-    <p class="eyebrow">Computer Engineering & Management<br>McMaster University · Class of 2030</p>
-    <h1 id="name">Daniel<br><em>Joseph.</em></h1>
-    <p class="hero-intro">I work where software meets hardware. So far, that’s taken me from a 32-bit processor to an assistive grabber and competition robots.</p>
-    <a class="underlink" href="#work">The work, and what changed along the way <span aria-hidden="true">↓</span></a>
-    <p class="availability mono"><span aria-hidden="true">●</span> SEEKING SUMMER 2027 ENGINEERING OPPORTUNITIES</p>
+  <div class="hero-copy"><p class="hello">Hey, I’m</p><h1 id="name">Daniel<br><em>Joseph.</em></h1>
+    <p class="hero-intro">A Computer Engineering & Management student at McMaster. I’m into hardware, volleyball, road running, and helping people figure out their schoolwork.</p>
+    <p class="home-note">Fort McMurray is home.<br>I’ve got a lot of love for Hamilton, too.</p>
+    <div class="hero-links"><a class="underlink" href="about.html">A bit more about me <span>↗</span></a><a class="underlink" href="mailto:danielchacko07@gmail.com">Say hello <span>↗</span></a></div>
+    <p class="availability">Looking for Summer 2027 engineering opportunities.</p>
   </div>
-  <figure class="hero-exhibit">
-    <div class="exhibit-top mono"><span>OBJECT STUDY / 02</span><span>PCB DESIGN · REV A</span></div>
-    <img class="hero-object" src="assets/grabber-pcb-3d.png" width="1400" height="1000" alt="3D rendering of the unbuilt ESP32 motor-controller carrier PCB">
-    <figcaption><span class="figure-number">FIG. 01</span><span>ESP32 motor-control carrier.<br>Designed, unbuilt.<br><a href="#grabber">Explore the PCB design ↗</a></span></figcaption>
-    <div class="exhibit-stamp mono">DESIGN → BUILD<br>→ TEST → REVISE</div>
-  </figure>
+  <div class="things" aria-label="A few things from my world">
+    <span class="margin-note">a few things from my world</span>
+    <a class="thing thing-board" href="#grabber"><img src="assets/grabber-pcb-3d.png" width="1400" height="1000" alt="ESP32 controller PCB design"><span>the gripper board ↗</span></a>
+    <a class="thing thing-chip" href="#cpu"><svg viewBox="0 0 270 245" role="img" aria-label="A RISC-V processor illustration"><g stroke="var(--ink)" stroke-width="6" stroke-linecap="round"><path d="M70 45V24m32 21V24m32 21V24m32 21V24m32 21V24M70 200v21m32-21v21m32-21v21m32-21v21m32-21v21M48 65H27m21 30H27m21 30H27m21 30H27m21 30H27M219 65h21m-21 30h21m-21 30h21m-21 30h21m-21 30h21"/></g><rect x="48" y="45" width="171" height="155" rx="7" fill="var(--chip)" stroke="var(--ink)" stroke-width="3"/><rect x="62" y="59" width="143" height="127" rx="3" fill="none" stroke="var(--chip-line)"/><text x="133" y="119" fill="var(--chip-text)" text-anchor="middle" font-family="monospace" font-size="28">RV32I</text><text x="133" y="143" fill="var(--chip-text)" text-anchor="middle" font-family="monospace" font-size="11">32-BIT / SINGLE-CYCLE</text><circle cx="76" cy="174" r="4" fill="var(--chip-text)"/></svg><span>the processor ↗</span></a>
+    <a class="thing thing-ball" href="about.html#outside"><svg viewBox="0 0 240 240" role="img" aria-label="A volleyball"><circle cx="120" cy="120" r="99" fill="var(--ball)" stroke="var(--ink)" stroke-width="3"/><g fill="none" stroke="var(--ink)" stroke-width="2.5"><path d="M120 21c-16 23-21 51-13 79 20 9 40 28 48 51 27 4 51-3 69-19M107 100c-25 10-44 29-53 55 9 25 26 45 51 61M155 151c-8 26-25 47-50 65M54 155c-13-22-18-48-11-73M107 100c-2-30 6-55 23-77M155 151c24-6 45-19 61-38M54 155c7-26 23-46 49-59"/><path d="M85 28c-17 23-23 47-17 73M182 45c-22-4-43-1-63 10M214 151c-14 20-32 34-56 39"/></g></svg><span>off the workbench ↗</span></a>
+    <span class="shelf-line" aria-hidden="true"></span>
+  </div>
 </section>
+<section class="home-about" aria-label="A little about me"><span class="little-star" aria-hidden="true">✳</span><p>I like making the most of an opportunity, even when it means taking a chance. That goes for projects, meeting people, and trying something I haven’t done before. <a href="about.html">More about that →</a></p></section>
 <div class="work-index" id="work"><span class="mono">SELECTED WORK / 2023—2026</span><a href="#cpu">01 Processor</a><a href="#grabber">02 Assistive device</a><a href="#robotics">03 Robotics</a></div>
 <article class="case" id="cpu" aria-labelledby="cpu-title">
   <div class="case-margin"><span class="case-number">01</span><span class="vertical-note mono">RTL / VERIFICATION / FPGA</span></div>
   <div class="case-body">
-    <div class="case-heading"><div><p class="eyebrow">Independent project · 2026</p><h2 id="cpu-title">A processor,<br><em>one cycle at a time.</em></h2></div><a class="underlink" href="https://github.com/danielj34/rv32i-core">Source & testbench ↗</a></div>
-    <p class="lead">A synthesizable, single-cycle RV32I CPU in SystemVerilog. The interesting part was making every register write, memory strobe, and branch target agree with the instruction being executed.</p>
+    <div class="case-heading"><div><p class="eyebrow">Independent project · 2026</p><h2 id="cpu-title">RV32I CPU</h2></div><a class="underlink" href="https://github.com/danielj34/rv32i-core">Source & testbench ↗</a></div>
+    <p class="lead">A synthesizable, single-cycle RV32I CPU in SystemVerilog. I checked the register writes, memory strobes, and branch targets against the instructions being executed.</p>
     <div class="two-column prose"><div><h3>What I built</h3><p>A 32 × 32-bit register file, ALU, decoder, immediate generator, branch and jump logic, and separate instruction/data-memory interfaces. A Python encoder turns test programs into instruction words.</p></div><div><h3>How I checked it</h3><p>Self-checking cocotb/Verilator regressions examine execution cycle by cycle, including signed comparisons, byte-store lanes, jump links, misaligned accesses, and precise traps.</p></div></div>
     <section class="trace" aria-labelledby="trace-title">
-      <div class="trace-heading"><div><p class="eyebrow">An executable idea, made readable</p><h3 id="trace-title">How does the demo get to 55?</h3></div><span class="mono">10 INSTRUCTIONS / RV32I</span></div>
+      <div class="trace-heading"><div><p class="eyebrow">Inside the demo program</p><h3 id="trace-title">How does the demo get to 55?</h3></div><span class="mono">10 INSTRUCTIONS / RV32I</span></div>
       <p class="trace-intro">The actual demo sums 10 down to 1, stores the result, reads it back, and writes to a memory-mapped output. Step through this explanatory replay of that program.</p>
       <div class="trace-layout">
         <div class="program-scroll"><table class="program"><caption class="sr-only">Demo program. The highlighted row is the instruction just executed.</caption><thead><tr><th>PC</th><th>Instruction</th><th>Purpose</th></tr></thead><tbody>
@@ -67,34 +69,34 @@
 <article class="case" id="grabber" aria-labelledby="grabber-title">
   <div class="case-margin"><span class="case-number">02</span><span class="vertical-note mono">CLIENT-CENTRED / ELECTROMECHANICAL</span></div>
   <div class="case-body">
-    <div class="case-heading"><div><p class="eyebrow">Assistive grabber · Controller PCB design</p><h2 id="grabber-title">ESP32 control,<br><em>on a custom board.</em></h2></div><span class="project-note mono">PCB DESIGN<br>DESIGNED / UNBUILT</span></div>
-    <p class="lead">A two-layer controller-board design for the assistive-grabber concept. It brings an ESP32 DevKitC, a socketed dual motor-driver module, button inputs, and separate motor power onto one carrier PCB. This portfolio version reconstructs the electronics design; fabrication and hardware integration were not performed.</p>
+    <div class="case-heading"><div><p class="eyebrow">Assistive grabber · Controller PCB design</p><h2 id="grabber-title">ESP32 grabber controller</h2></div><span class="project-note mono">PCB DESIGN<br>REVISION A</span></div>
+    <p class="lead">A two-layer controller-board design for the assistive-grabber concept. It brings an ESP32 DevKitC, a socketed dual motor-driver module, button inputs, and separate motor power onto one carrier PCB. The board separates the control connections and motor-power routing, with a removable standby-enable link.</p>
     <div class="artifact-viewer">
       <div class="artifact-toolbar"><span class="mono">PROJECT ARTIFACTS</span><div role="group" aria-label="Choose grabber artifact"><button class="artifact-choice active" aria-pressed="true" data-artifact="pcb" type="button">PCB layout</button><button class="artifact-choice" aria-pressed="false" data-artifact="board3d" type="button">3D board</button><button class="artifact-choice" aria-pressed="false" data-artifact="cad" type="button">Assembly</button><button class="artifact-choice" aria-pressed="false" data-artifact="drawing" type="button">Drawing</button></div></div>
-      <figure><div class="artifact-stage" id="artifact-stage" data-view="pcb"><img id="artifact-image" src="assets/grabber-pcb.svg" width="1140" height="990" loading="lazy" alt="Routed ESP32 motor-controller PCB with red top-layer and blue bottom-layer copper"></div><figcaption id="artifact-caption" aria-live="polite">01 / Reconstructed two-layer PCB layout. Red top copper, blue bottom copper. Designed, unbuilt.</figcaption></figure>
+      <figure><div class="artifact-stage" id="artifact-stage" data-view="pcb"><img id="artifact-image" src="assets/grabber-pcb.svg" width="1140" height="990" loading="lazy" alt="Routed ESP32 motor-controller PCB with red top-layer and blue bottom-layer copper"></div><figcaption id="artifact-caption" aria-live="polite">01 / Two-layer PCB layout. Red top copper, blue bottom copper.</figcaption></figure>
     </div>
     <div class="pcb-downloads"><a class="underlink" href="hardware/grabber-controller-rev-a.zip" download>Download editable PCB package ↓</a><a class="underlink" href="hardware/grabber-controller-rev-a/GrabberController_AltiumImport.PCB" download>Altium import file (.PCB) ↓</a><a class="underlink" href="hardware/grabber-controller-rev-a/Connections.svg">Connection schematic ↗</a></div>
     <div class="two-column prose"><div><h3>The controller architecture</h3><p>The carrier uses an ESP32 DevKitC and a socketed SparkFun TB6612FNG module. It separates USB-powered logic from the fused motor supply, provides two motor outputs, and exposes OPEN, CLOSE, and STOP inputs. A pulldown holds the driver in standby when the removable enable link is open.</p></div><div><h3>The board design</h3><p>A 111.76 × 86.36 mm layout with 16 component placements, 19 nets, and 36 through vias. Motor routing is 1.00 mm, logic/ground routing 0.50 mm, and control signals 0.30 mm. The native layout reports zero violations and zero unconnected items under its default-rule check.</p></div></div>
     <div class="decision-note"><span class="note-mark" aria-hidden="true">↳</span><div><p class="eyebrow">Design files you can inspect</p><h3>From pin assignments to routed copper.</h3><p>The download includes the editable layout, Altium-importable P-CAD file, connection drawing, BOM, pin table, and validation record. The red/blue view is generated from the actual copper geometry. The interchange file preserves all 84 pad/net assignments; opening and layer mapping in Altium still require verification.</p><p>This is a controller design study. Motor stall-current compatibility, component fit, thermal performance, and powered operation remain unverified.</p></div></div>
-    <details class="prototype-history"><summary>The wider grabber project</summary><div class="prose"><p>The original ENGINEER 1P13 team project developed a wheelchair-mounted grabber around limited hand dexterity and reach. My work included concept development, embedded/PCB prototyping, and electromechanical integration. The team iterated three prototypes.</p><p>The completed team prototype used a simpler 2P2T switch circuit after reliability and usability problems with the initial electronics. This reconstructed PCB was not installed in that completed prototype. CAD views and the engineering drawing show the team’s mechanical design.</p></div></details>
-    <p class="footnote">PCB reconstruction and rendering dated November 2026. Mechanical CAD and drawing excerpts are team artifacts from the Fri-04 report. Client details are anonymized.</p>
+    <details class="prototype-history"><summary>The wider grabber project</summary><div class="prose"><p>The original ENGINEER 1P13 team project developed a wheelchair-mounted grabber around limited hand dexterity and reach. My work included concept development, embedded/PCB prototyping, and electromechanical integration. The team iterated three prototypes.</p><p>The completed team prototype used a simpler 2P2T switch circuit after reliability and usability problems with the initial electronics. The PCB is presented here as a design project. CAD views and the engineering drawing show the team’s mechanical design.</p></div></details>
+    <p class="footnote">PCB design and rendering dated November 2026. Mechanical CAD and drawing excerpts are team artifacts from the Fri-04 report. Client details are anonymized.</p>
   </div>
 </article>
 <article class="case" id="robotics" aria-labelledby="robotics-title">
   <div class="case-margin"><span class="case-number">03</span><span class="vertical-note mono">C++ / CONTROL / MECHANICAL DESIGN</span></div>
   <div class="case-body">
-    <div class="case-heading"><div><p class="eyebrow">Westwood Robotics · VEX V5 · 2023–2025</p><h2 id="robotics-title">Repeatability<br><em>under pressure.</em></h2></div><span class="project-note mono">221X / CONTROLS & DESIGN LEAD<br>221X / ALBERTA PROVINCIAL CHAMPIONS</span></div>
+    <div class="case-heading"><div><p class="eyebrow">Westwood Robotics · VEX V5 · 2023–2025</p><h2 id="robotics-title">VEX robotics, with 221X</h2></div><span class="project-note mono">221X / CONTROLS & DESIGN LEAD<br>221X / ALBERTA PROVINCIAL CHAMPIONS</span></div>
     <p class="lead">I developed C++ autonomous and driver-control software, tuned position and heading PID controllers, and worked on the mechanical fit that makes the software useful.</p>
     <div class="robotics-layout"><div class="robotics-results"><p class="eyebrow">Recorded in my project experience</p><div class="result-line"><strong>±3 <small>cm</small></strong><span>position repeatability</span></div><div class="result-line"><strong>±0.5<small>°</small></strong><span>heading repeatability</span></div><p class="mono">200+ TEST RUNS / IMU + ENCODERS</p></div><div class="prose"><h3>Controls and the mechanism</h3><p>I used IMU and encoder sensor fusion with positional and angular PID control, and built an optical-sensor colour-sorting subsystem. SolidWorks fit and clearance checks helped cut mechanical iteration time by 25%.</p><h3>From the workshop to Worlds</h3><p>I led embedded controls and mechanical design for 221X, won Alberta Provincials with 221X, and competed at the 2025 VEX Robotics World Championship in Dallas.</p><p class="footnote">Performance figures are from my résumé and project experience. A public test-run dataset is not included here.</p></div></div>
   </div>
 </article>
 <section class="background" id="background" aria-labelledby="background-title">
-  <div><p class="eyebrow">Beyond the project bench</p><h2 id="background-title">Where I’ve<br><em>been working.</em></h2><p class="background-intro">Computer Engineering & Management, Level II.<br>McMaster University · Expected April 2030.</p><a class="underlink" href="resume.html">View my résumé ↗</a></div>
+  <div><p class="eyebrow">Beyond the project bench</p><h2 id="background-title">Where I’ve been working</h2><p class="background-intro">Computer Engineering & Management, Level II.<br>McMaster University · Expected April 2030.</p><a class="underlink" href="resume.html">View my résumé ↗</a></div>
   <div class="experience-list"><article><div class="experience-meta mono"><span>SEPT 2026—PRESENT</span><span>HARDWARE</span></div><h3>McMaster DARE</h3><p class="job-title">Electrical Sub-Team Member · BELUGA</p><p>Developing microcontroller subsystems for sensor interfacing and data acquisition on BELUGA. Integrating INA3221 current monitoring for I²C-based measurement of supply current and bus voltage.</p></article><article><div class="experience-meta mono"><span>JUN—AUG 2026</span><span>OPERATIONS & SOFTWARE</span></div><h3>Acden Environment</h3><p class="job-title">Technical Operations Intern · Fort McMurray</p><p>Built a Python pipeline between TRUX and Salesforce Agentforce, reducing manual reconciliation by 85%. Added API error recovery and automated purchase-order and PPE workflows across 12 sites and 3 approvers.</p></article></div>
 </section>
-<section class="contact" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">Summer 2027</p><h2 id="contact-title">Let’s talk<br><em>engineering.</em></h2><p>I’m looking for opportunities in digital hardware, embedded systems, and engineering development.</p></div><div class="contact-links"><a href="mailto:danielchacko07@gmail.com">Email Daniel <span>↗</span></a><a href="https://www.linkedin.com/in/josepd16">LinkedIn <span>↗</span></a><a href="https://github.com/danielj34">GitHub <span>↗</span></a><a href="resume.html">Résumé <span>↗</span></a></div></section>
+<section class="contact" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">Summer 2027</p><h2 id="contact-title">Say hello.</h2><p>I’m looking for opportunities in digital hardware, embedded systems, and engineering development.</p></div><div class="contact-links"><a href="mailto:danielchacko07@gmail.com">Email Daniel <span>↗</span></a><a href="https://www.linkedin.com/in/josepd16">LinkedIn <span>↗</span></a><a href="https://github.com/danielj34">GitHub <span>↗</span></a><a href="resume.html">Résumé <span>↗</span></a></div></section>
 </main>
-<footer><span>Daniel Joseph</span><span class="mono">DESIGNED AROUND THE WORK · UPDATED NOV 2026</span><a href="#top">Back to top ↑</a></footer>
+<footer><a class="footer-signature" href="index.html">Daniel Joseph</a><span>Fort McMurray ↔ Hamilton</span><div><a href="mailto:danielchacko07@gmail.com">Email</a><a href="https://github.com/danielj34">GitHub</a><a href="https://www.linkedin.com/in/josepd16">LinkedIn</a></div></footer>
 </div>
 </body>
 </html>

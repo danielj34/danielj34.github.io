@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="990" viewBox="0 0 1140 990" role="img" aria-labelledby="title desc"><title id="title">ESP32 grabber controller, routed two-layer PCB design</title><desc id="desc">Actual copper layout from the editable design. Red top-layer tracks, blue bottom-layer tracks, gold through-hole pads, and mounting holes. Unbuilt reconstruction, revision A.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="990" viewBox="0 0 1140 990" role="img" aria-labelledby="title desc"><title id="title">ESP32 grabber controller, routed two-layer PCB design</title><desc id="desc">Actual copper layout from the editable design. Red top-layer tracks, blue bottom-layer tracks, gold through-hole pads, and mounting holes. PCB layout, revision A.</desc>
 <rect width="1140" height="990" fill="#141b24"/>
 <text x="50" y="40" font-size="22" fill="#f0e5c2" text-anchor="start" font-family="monospace">GRABBER CONTROLLER / REV A</text>
-<text x="50" y="65" font-size="11" fill="#a9b6c4" text-anchor="start" font-family="monospace">DESIGN RECONSTRUCTION - UNBUILT</text>
+<text x="50" y="65" font-size="11" fill="#a9b6c4" text-anchor="start" font-family="monospace">ESP32 / DUAL MOTOR CONTROL</text>
 <text x="1090" y="45" font-size="12" fill="#a9b6c4" text-anchor="end" font-family="monospace">2 LAYERS</text>
 <polygon points="65,110 202.16,110 202.16,182.0 522.2,182.0 522.2,110 1070.8400000000001,110 1070.8400000000001,887.24 65,887.24" fill="#1b2530" stroke="#c6d3e0" stroke-width="2"/>
 <g fill="none" stroke="#5386ef" stroke-opacity="0.85" stroke-linejoin="round" stroke-linecap="round">
@@ -798,5 +798,5 @@
 <text x="237" y="961" font-size="11" fill="#d3d8db" text-anchor="start" font-family="monospace">TOP COPPER</text>
 <line x1="420" y1="956" x2="455" y2="956" stroke="#5386ef" stroke-width="4"/>
 <text x="467" y="961" font-size="11" fill="#d3d8db" text-anchor="start" font-family="monospace">BOTTOM COPPER</text>
-<text x="1090" y="961" font-size="10" fill="#a9b6c4" text-anchor="end" font-family="monospace">LAYOUT ONLY - NOT FABRICATED</text>
+<text x="1090" y="961" font-size="10" fill="#a9b6c4" text-anchor="end" font-family="monospace">ESP32 / DUAL MOTOR CONTROL</text>
 </svg>

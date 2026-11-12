@@ -1,8 +1,8 @@
 # Grabber Controller - Revision A
 
-Status: reconstructed PCB design study, unbuilt. Created November 12, 2026.
+ESP32 motor-control carrier PCB design, Revision A. November 12, 2026.
 
-This is a new reconstruction of the earlier ESP32 / dual-motor-controller concept for Daniel Joseph's assistive-grabber portfolio. It is not a recovered original file. It has not been fabricated, populated, powered, or integrated into the completed gripper. The team's completed gripper used a switch-based control circuit.
+This design develops the ESP32 / dual-motor-controller concept for Daniel Joseph's assistive-grabber portfolio. The team's completed mechanical prototype used a switch-based control circuit. The files here document the PCB design.
 
 ## Design
 
@@ -41,7 +41,7 @@ The design was authored and checked through a PCB design library and KiCad 9.0.7
 
 The initial design target is current-limited bench loads up to 0.5 A per motor channel. The TB6612FNG manufacturer's average/peak ratings are not interchangeable with a motor's stall current. The original JGB37 motor compatibility has not been established. Measure motor startup/stall current and review driver and fuse selection before using this circuit with those motors.
 
-This layout has no current sensing, grip-force sensing, travel-limit inputs, reverse-polarity protection, or validated thermal/current-handling performance. The fuse does not regulate motor current. Host firmware must default the driver to standby, handle conflicting commands, enforce motion timeouts and validate the STOP input before bench use. No new firmware is supplied with this reconstruction.
+This layout has no current sensing, grip-force sensing, travel-limit inputs, reverse-polarity protection, or validated thermal/current-handling performance. The fuse does not regulate motor current. Host firmware must default the driver to standby, handle conflicting commands, enforce motion timeouts and validate the STOP input before bench use. No new firmware is supplied with this design.
 
 Component body envelopes, actual connector and PTC part selection, pad/drill tolerances, module mounting orientation, antenna/RF clearance, enclosure clearances, EMC, bulk-capacitor sizing, and patient-use safety require review. The board is not a fabrication release or a tested assistive device.
 

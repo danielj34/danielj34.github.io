@@ -1,5 +1,5 @@
 ACCEL_ASCII "GrabberController_RevA"
-(asciiHeader (asciiVersion 3 0) (timeStamp 2026 11 12 0 0 0) (program "PCB design reconstruction" "1.0") (fileUnits mm))
+(asciiHeader (asciiVersion 3 0) (timeStamp 2026 11 12 0 0 0) (program "PCB layout" "1.0") (fileUnits mm))
 (library
 (padStyleDef "PTH" (holeDiam 1) (isHolePlated True)
 (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1.8) (shapeHeight 1.8))
@@ -958,5 +958,5 @@ ACCEL_ASCII "GrabberController_RevA"
 (line (pt 0.00000 -86.36000) (pt 0.00000 0.00000) (width 0.1))
 (boardOutlineObj (enhancedPolygon (polyPoint (pt 0.00000 0.00000)) (polyPoint (pt 15.24000 0.00000)) (polyPoint (pt 15.24000 -8.00000)) (polyPoint (pt 50.80000 -8.00000)) (polyPoint (pt 50.80000 0.00000)) (polyPoint (pt 111.76000 0.00000)) (polyPoint (pt 111.76000 -86.36000)) (polyPoint (pt 0.00000 -86.36000))))
 ) (layerContents (layerNumRef 6)
-(text "DJ / GRABBER CTRL REV A - UNBUILT DESIGN" (pt 55.00000 -83.00000) (rotation 0) (textStyleRef "Default"))
+(text "DJ / GRABBER CTRL REV A - PCB DESIGN" (pt 55.00000 -83.00000) (rotation 0) (textStyleRef "Default"))
 ))

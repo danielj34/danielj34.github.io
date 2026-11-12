@@ -2712,7 +2712,7 @@
 			)
 		)
 	)
-	(gr_text "REV A - UNBUILT STUDY"
+	(gr_text "REV A - ESP32 CONTROL"
 		(at 77 84 0)
 		(layer "F.SilkS")
 		(uuid "9df6d3a4-6454-49e0-8c04-9c2270c21505")

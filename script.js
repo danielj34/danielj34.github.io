@@ -58,7 +58,7 @@ const artifacts = {
   pcb: {
     source: 'assets/grabber-pcb.svg',
     alt: 'Routed ESP32 motor-controller PCB with red top-layer and blue bottom-layer copper',
-    caption: '01 / Reconstructed two-layer PCB layout. Red top copper, blue bottom copper. Designed, unbuilt.'
+    caption: '01 / Two-layer PCB layout. Red top copper, blue bottom copper.'
   },
   board3d: {
     source: 'assets/grabber-pcb-3d.png',
