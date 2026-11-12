@@ -1,24 +1,99 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Daniel Joseph's engineering portfolio. Explore projects in computer architecture and digital hardware.">
-<meta name="theme-color" content="#101714">
-<title>Daniel Joseph | Engineering Portfolio</title>
-<style>
-:root{color-scheme:dark;--bg:#101714;--surface:#18221c;--text:#f0f2e9;--muted:#a8b6ab;--accent:#c8ed9f;--line:#344338}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-underline-offset:5px}a:focus-visible{outline:3px solid var(--accent);outline-offset:6px}.wrap{max-width:1140px;margin:auto;padding:0 32px}.skip{position:absolute;top:-80px;padding:12px;background:var(--accent);color:var(--bg)}.skip:focus{top:8px}header{border-bottom:1px solid var(--line)}nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:90px}.brand{font-weight:700;text-decoration:none;letter-spacing:-.04em;font-size:23px}.brand span{color:var(--accent)}.navlinks{display:flex;gap:28px;font-size:14px}.navlinks a{text-decoration:none}.navlinks a:hover{color:var(--accent)}.hero{padding:110px 0 100px;display:grid;grid-template-columns:1.3fr 1fr;gap:70px;align-items:center}.eyebrow{font-family:ui-monospace,monospace;color:var(--accent);font-size:12px;letter-spacing:.14em;text-transform:uppercase}h1{font-size:clamp(50px,7vw,88px);font-weight:550;letter-spacing:-.065em;line-height:1.03;margin:23px 0}h1 span{display:block;color:var(--accent)}.intro{color:var(--muted);font-size:18px;max-width:490px}.actions{display:flex;flex-wrap:wrap;gap:24px;align-items:center;margin-top:32px}.button{display:inline-block;background:var(--accent);color:var(--bg);padding:12px 22px;text-decoration:none;font-weight:650;border-radius:4px}.textlink{font-size:14px}.diagram{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:28px}.diagram svg{width:100%;height:auto;display:block}.diagram p{color:var(--muted);font-family:ui-monospace,monospace;font-size:11px;margin:20px 0 0}.section{border-top:1px solid var(--line);padding:64px 0;scroll-margin-top:24px}.sectionhead{display:flex;justify-content:space-between;gap:24px;align-items:baseline;margin-bottom:30px}h2{font-size:32px;font-weight:550;letter-spacing:-.04em;margin:0}.number{color:var(--muted);font-family:ui-monospace,monospace;font-size:12px}.project{display:grid;grid-template-columns:1fr 1.5fr;gap:50px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:36px}.project h3{font-size:32px;letter-spacing:-.03em;line-height:1.2;margin:10px 0 18px}.project p,.about p{color:var(--muted);margin-top:0}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}.tag{border:1px solid var(--line);border-radius:30px;padding:4px 12px;font-size:12px;color:var(--muted)}.about{display:grid;grid-template-columns:1fr 1.5fr;gap:50px}.about p{font-size:18px;max-width:650px}.contact{padding-bottom:80px}.contact p{color:var(--muted);max-width:600px}footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:12px}.footerinner{display:flex;justify-content:space-between;gap:20px}a:hover{opacity:.85}@media(max-width:760px){.wrap{padding:0 22px}.hero{grid-template-columns:1fr;padding:65px 0;gap:36px}.diagram{max-width:460px}.project,.about{grid-template-columns:1fr;gap:18px}.project{padding:25px}.section{padding:45px 0}.navlinks{gap:18px}nav{min-height:76px}.footerinner{flex-direction:column;gap:4px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daniel Joseph — Computer Engineering & Management at McMaster. Processor design, assistive hardware, and robotics controls, with the drawings, decisions, and test results behind them.">
+  <meta name="theme-color" content="#eeeae1">
+  <title>Daniel Joseph — Engineering, in detail</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header><nav class="wrap" aria-label="Main navigation"><a class="brand" href="#">Daniel Joseph<span>.</span></a><div class="navlinks"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Connect</a></div></nav></header>
-<main id="main" class="wrap">
-<section class="hero" aria-labelledby="intro-title"><div><div class="eyebrow">Engineering portfolio</div><h1 id="intro-title">Daniel<span>Joseph.</span></h1><p class="intro">Exploring how hardware and software come together, one engineering project at a time.</p><div class="actions"><a class="button" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="textlink" href="https://github.com/danielj34">Find me on GitHub</a></div></div>
-<div class="diagram"><svg viewBox="0 0 360 280" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Illustrative processor datapath connecting instruction memory, control, registers, and an arithmetic logic unit</title><g fill="none" stroke="#506747" stroke-width="1.5"><path d="M70 75H180V125M180 75H290V125M70 175V225H290V175M180 175V225M70 125V75"/><path d="M180 225V255H330V50H70V75" stroke-dasharray="5 6"/></g><g fill="#1e2d23" stroke="#7c9e63"><rect x="20" y="125" width="100" height="50" rx="4"/><rect x="130" y="125" width="100" height="50" rx="4"/><rect x="240" y="125" width="100" height="50" rx="4"/><rect x="20" y="25" width="100" height="50" rx="4"/></g><g fill="#c8ed9f" font-size="12" font-family="monospace" text-anchor="middle"><text x="70" y="155">REGISTERS</text><text x="180" y="155">ALU</text><text x="290" y="155">MEMORY</text><text x="70" y="55">CONTROL</text></g><g fill="#c8ed9f"><circle cx="180" cy="75" r="4"/><circle cx="180" cy="225" r="4"/></g></svg><p>01 / COMPUTER ARCHITECTURE — DATAPATH STUDY</p></div></section>
-<section id="projects" class="section" aria-labelledby="projects-title"><div class="sectionhead"><h2 id="projects-title">Selected work</h2><span class="number">01 / PROJECTS</span></div><article class="project"><div><div class="eyebrow">Computer architecture</div><h3>RV32I processor core</h3><a class="textlink" href="https://github.com/danielj34/rv32i-core">Explore the repository <span aria-hidden="true">↗</span></a></div><div><p>A single-cycle RV32I core in SystemVerilog, with cocotb tests and an iCEBreaker FPGA demo.</p><p>Explore the source code, testing setup, and project documentation on GitHub.</p><div class="tags" aria-label="Project technologies"><span class="tag">RISC-V</span><span class="tag">SystemVerilog</span><span class="tag">cocotb</span><span class="tag">FPGA</span></div></div></article></section>
-<section id="about" class="section about" aria-labelledby="about-title"><div><div class="eyebrow">02 / ABOUT</div><h2 id="about-title">Learning by building.</h2></div><div><p>I'm Daniel Joseph. This portfolio brings together my engineering projects and the work behind them.</p><p>My featured project explores processor design, connecting digital hardware with the software used to test it.</p></div></section>
-<section id="contact" class="section contact" aria-labelledby="contact-title"><div class="eyebrow">03 / CONNECT</div><h2 id="contact-title">Follow what I'm building.</h2><p>Visit my GitHub profile to explore my repositories and follow my latest engineering work.</p><div class="actions"><a class="button" href="https://github.com/danielj34">Visit GitHub <span aria-hidden="true">↗</span></a></div></section>
-</main><footer><div class="wrap footerinner"><span>Daniel Joseph · Engineering portfolio</span><span>Hardware. Software. Curiosity.</span></div></footer>
+<div class="page">
+<header>
+  <a class="wordmark" href="#top" aria-label="Daniel Joseph, top of page">DJ<span>/</span></a>
+  <nav aria-label="Main navigation"><a href="#work">Work</a><a href="#background">Background</a><a href="resume.html">Résumé ↗</a><a href="#contact">Contact</a></nav>
+  <span class="header-note mono">TORONTO / HAMILTON, ON</span>
+</header>
+<main id="main">
+<section class="hero" id="top" aria-labelledby="name">
+  <div class="hero-copy">
+    <p class="eyebrow">Computer Engineering & Management<br>McMaster University · Class of 2029</p>
+    <h1 id="name">Daniel<br><em>Joseph.</em></h1>
+    <p class="hero-intro">I work where software meets hardware. So far, that’s taken me from a 32-bit processor to an assistive grabber and competition robots.</p>
+    <a class="underlink" href="#work">The work, and what changed along the way <span aria-hidden="true">↓</span></a>
+    <p class="availability mono"><span aria-hidden="true">●</span> SEEKING SUMMER 2027 ENGINEERING OPPORTUNITIES</p>
+  </div>
+  <figure class="hero-exhibit">
+    <div class="exhibit-top mono"><span>OBJECT STUDY / 02</span><span>1P13 · TEAM FRI-04</span></div>
+    <img class="hero-object" src="assets/grabber-cad.webp" width="816" height="657" alt="Team CAD assembly of an assistive grabber with twin geared claws and a telescoping rod">
+    <figcaption><span class="figure-number">FIG. 01</span><span>A claw, two motors, and a reason to simplify.<br><a href="#grabber">Read the design story ↗</a></span></figcaption>
+    <div class="exhibit-stamp mono">DESIGN → BUILD<br>→ TEST → REVISE</div>
+  </figure>
+</section>
+<div class="work-index" id="work"><span class="mono">SELECTED WORK / 2023—2026</span><a href="#cpu">01 Processor</a><a href="#grabber">02 Assistive device</a><a href="#robotics">03 Robotics</a></div>
+<article class="case" id="cpu" aria-labelledby="cpu-title">
+  <div class="case-margin"><span class="case-number">01</span><span class="vertical-note mono">RTL / VERIFICATION / FPGA</span></div>
+  <div class="case-body">
+    <div class="case-heading"><div><p class="eyebrow">Independent project · 2026</p><h2 id="cpu-title">A processor,<br><em>one cycle at a time.</em></h2></div><a class="underlink" href="https://github.com/danielj34/rv32i-core">Source & testbench ↗</a></div>
+    <p class="lead">A synthesizable, single-cycle RV32I CPU in SystemVerilog. The interesting part was making every register write, memory strobe, and branch target agree with the instruction being executed.</p>
+    <div class="two-column prose"><div><h3>What I built</h3><p>A 32 × 32-bit register file, ALU, decoder, immediate generator, branch and jump logic, and separate instruction/data-memory interfaces. A Python encoder turns test programs into instruction words.</p></div><div><h3>How I checked it</h3><p>Self-checking cocotb/Verilator regressions examine execution cycle by cycle, including signed comparisons, byte-store lanes, jump links, misaligned accesses, and precise traps.</p></div></div>
+    <section class="trace" aria-labelledby="trace-title">
+      <div class="trace-heading"><div><p class="eyebrow">An executable idea, made readable</p><h3 id="trace-title">How does the demo get to 55?</h3></div><span class="mono">10 INSTRUCTIONS / RV32I</span></div>
+      <p class="trace-intro">The actual demo sums 10 down to 1, stores the result, reads it back, and writes to a memory-mapped output. Step through this explanatory replay of that program.</p>
+      <div class="trace-layout">
+        <div class="program-scroll"><table class="program"><caption class="sr-only">Demo program. The highlighted row is the instruction just executed.</caption><thead><tr><th>PC</th><th>Instruction</th><th>Purpose</th></tr></thead><tbody>
+          <tr data-pc="0"><td>00</td><td>addi x1, x0, 10</td><td>Set counter</td></tr>
+          <tr data-pc="4"><td>04</td><td>addi x2, x0, 0</td><td>Clear sum</td></tr>
+          <tr data-pc="8"><td>08</td><td>add x2, x2, x1</td><td>Accumulate</td></tr>
+          <tr data-pc="12"><td>0C</td><td>addi x1, x1, -1</td><td>Count down</td></tr>
+          <tr data-pc="16"><td>10</td><td>bne x1, x0, -8</td><td>Loop if nonzero</td></tr>
+          <tr data-pc="20"><td>14</td><td>sw x2, 0(x0)</td><td>Store sum</td></tr>
+          <tr data-pc="24"><td>18</td><td>lw x3, 0(x0)</td><td>Read it back</td></tr>
+          <tr data-pc="28"><td>1C</td><td>addi x4, x0, 256</td><td>Output address</td></tr>
+          <tr data-pc="32"><td>20</td><td>sw x3, 0(x4)</td><td>Write result</td></tr>
+          <tr data-pc="36"><td>24</td><td>jal x0, 0</td><td>Idle</td></tr>
+        </tbody></table></div>
+        <div class="trace-state"><p class="mono state-label">AFTER EXECUTION</p><dl class="registers"><div><dt>x1 / counter</dt><dd id="counter-value">0</dd></div><div><dt>x2 / sum</dt><dd id="sum-value">0</dd></div><div><dt>x3 / readback</dt><dd id="readback-value">0</dd></div></dl><div id="output-state" class="output-state"><span class="output-led" aria-hidden="true"></span><span id="output-label">Output waiting</span></div><p id="trace-explanation" aria-live="polite">Start at reset. The registers and scratch memory are zero.</p></div>
+      </div>
+      <div class="trace-controls"><div><button id="trace-reset" type="button">Reset</button><button id="trace-back" type="button" disabled>← Back</button><button id="trace-next" class="primary" type="button">Execute next →</button></div><span id="trace-position" class="mono">RESET / 37 STEPS</span></div>
+      <p class="footnote">Browser replay of <a href="https://github.com/danielj34/rv32i-core/blob/main/programs/demo.py">programs/demo.py</a>. RTL verification runs separately in cocotb. The FPGA LED behavior has been checked in simulation; physical board validation is pending.</p>
+    </section>
+    <div class="implementation"><div><p class="eyebrow">From RTL to placed-and-routed logic</p><h3>The wire delay mattered.</h3><p>The longest path ran from <code>pc[19]</code> through instruction decode and fault checks to a register write-enable. Routing accounted for about 71% of its delay.</p><a class="underlink" href="https://github.com/danielj34/rv32i-core/blob/main/docs/implementation.md">Implementation report ↗</a></div><div class="timing-panel"><div class="timing-title mono"><span>CRITICAL PATH</span><span>71.92 ns</span></div><div class="timing-bar" role="img" aria-label="Critical path delay, 20.90 nanoseconds of logic and 51.02 nanoseconds of routing"><span class="logic">Logic</span><span class="routing">Routing</span></div><div class="timing-key mono"><span>20.90 ns</span><span>51.02 ns</span></div><dl class="implementation-stats"><div><dt>Target clock</dt><dd>12 MHz</dd></div><div><dt>Estimated post-route Fmax</dt><dd>13.90 MHz</dd></div><div><dt>Demo logic cells</dt><dd>1,683 / 5,280</dd></div></dl><p class="footnote">iCEBreaker UP5K · nextpnr seed 1. Demo utilization includes ROM-driven pruning and differs from standalone core synthesis.</p></div></div>
+  </div>
+</article>
+<article class="case" id="grabber" aria-labelledby="grabber-title">
+  <div class="case-margin"><span class="case-number">02</span><span class="vertical-note mono">CLIENT-CENTRED / ELECTROMECHANICAL</span></div>
+  <div class="case-body">
+    <div class="case-heading"><div><p class="eyebrow">ENGINEER 1P13 · Team Fri-04 · 2026</p><h2 id="grabber-title">Make it easier<br><em>to reach.</em></h2></div><span class="project-note mono">TEAM PROJECT<br>3 PROTOTYPE ITERATIONS</span></div>
+    <p class="lead">A wheelchair-mounted grabber developed around limited hand dexterity and reach. The challenge extended beyond closing a claw to mounting, balance, control effort, and picking things up from the floor.</p>
+    <div class="artifact-viewer">
+      <div class="artifact-toolbar"><span class="mono">PROJECT ARTIFACTS</span><div role="group" aria-label="Choose grabber artifact"><button class="artifact-choice active" aria-pressed="true" data-artifact="cad" type="button">Assembly</button><button class="artifact-choice" aria-pressed="false" data-artifact="prototype" type="button">Prototype</button><button class="artifact-choice" aria-pressed="false" data-artifact="drawing" type="button">Drawing</button><button class="artifact-choice" aria-pressed="false" data-artifact="concept" type="button">My sketch</button></div></div>
+      <figure><div class="artifact-stage" id="artifact-stage"><img id="artifact-image" src="assets/grabber-cad.webp" width="816" height="657" loading="lazy" alt="Team CAD assembly of the geared grabber and telescoping rod"></div><figcaption id="artifact-caption" aria-live="polite">01 / Team CAD assembly. Twin geared claws mounted to the telescoping arm.</figcaption></figure>
+    </div>
+    <div class="two-column prose"><div><h3>My contribution</h3><p>My work included concept development, ESP32 and PCB prototyping, and electromechanical integration. My early hook concept explored retrieving everyday items with minimal finger input. The team combined ideas and refined the device through three prototype iterations.</p></div><div><h3>The team’s final device</h3><p>A telescoping rod, geared motor-driven claws, a flexible wheelchair attachment, and an accessible handle. The final report records roughly 1 kg total mass and 6 hours of printing for the final PLA components.</p></div></div>
+    <div class="decision-note"><span class="note-mark" aria-hidden="true">↳</span><div><p class="eyebrow">The decision I’d talk about in an interview</p><h3>The final controller was a switch.</h3><p>The initial electronics used an ESP32, TB6612FNG motor driver, and three buttons. Reliability, packaging, and control usability problems led the team to a simpler 2P2T switch circuit. It reduced the circuit footprint and made opening and closing the gripper more direct.</p><p>The mechanical design changed too. The gripper was angled upward by 45° to improve floor pickup, and wooden dowels replaced weaker printed axles.</p></div></div>
+    <div class="test-note"><span class="mono">TESTING LIMITS</span><p>The report records gear-to-motor slipping and PLA failure under load. Comfort and usability were tested with student proxies and simulated mounting, so client validation and further durability work remained open.</p></div>
+    <p class="footnote">Photos, CAD views, and drawing excerpts from the Fri-04 project report. CAD assembly and detailed drawings are team artifacts; the sketch is my individual concept. Client details are anonymized.</p>
+  </div>
+</article>
+<article class="case" id="robotics" aria-labelledby="robotics-title">
+  <div class="case-margin"><span class="case-number">03</span><span class="vertical-note mono">C++ / CONTROL / MECHANICAL DESIGN</span></div>
+  <div class="case-body">
+    <div class="case-heading"><div><p class="eyebrow">Westwood Robotics · VEX V5 · 2023–2025</p><h2 id="robotics-title">Repeatability<br><em>under pressure.</em></h2></div><span class="project-note mono">221E / CONTROLS & DESIGN LEAD<br>221X / ALBERTA PROVINCIAL CHAMPIONS</span></div>
+    <p class="lead">I developed C++ autonomous and driver-control software, tuned position and heading PID controllers, and worked on the mechanical fit that makes the software useful.</p>
+    <div class="robotics-layout"><div class="robotics-results"><p class="eyebrow">Recorded in my project experience</p><div class="result-line"><strong>±3 <small>cm</small></strong><span>position repeatability</span></div><div class="result-line"><strong>±0.5<small>°</small></strong><span>heading repeatability</span></div><p class="mono">200+ TEST RUNS / IMU + ENCODERS</p></div><div class="prose"><h3>Controls and the mechanism</h3><p>I used IMU and encoder sensor fusion with positional and angular PID control, and built an optical-sensor colour-sorting subsystem. SolidWorks fit and clearance checks helped cut mechanical iteration time by 25%.</p><h3>From the workshop to Worlds</h3><p>I led embedded controls and mechanical design for 221E, won Alberta Provincials with 221X, and competed at the 2025 VEX Robotics World Championship in Dallas.</p><p class="footnote">Performance figures are from my résumé and project experience. A public test-run dataset is not included here.</p></div></div>
+  </div>
+</article>
+<section class="background" id="background" aria-labelledby="background-title">
+  <div><p class="eyebrow">Beyond the project bench</p><h2 id="background-title">Where I’ve<br><em>been working.</em></h2><p class="background-intro">Computer Engineering & Management, Level II.<br>McMaster University · Expected April 2029.</p><a class="underlink" href="resume.html">View my résumé ↗</a></div>
+  <div class="experience-list"><article><div class="experience-meta mono"><span>SEPT 2026—PRESENT</span><span>HARDWARE</span></div><h3>McMaster DARE</h3><p class="job-title">Electrical Sub-Team Member · BELUGA</p><p>Contributing to sensor power, the surface tether, and USBL transmitter systems for an underwater drone for wildlife identification and water sampling.</p></article><article><div class="experience-meta mono"><span>JUN—AUG 2026</span><span>OPERATIONS & SOFTWARE</span></div><h3>Acden Environment</h3><p class="job-title">Technical Operations Intern · Fort McMurray</p><p>Built a Python pipeline between TRUX and Salesforce Agentforce, reducing manual reconciliation by 85%. Added API error recovery and automated purchase-order and PPE workflows across 12 sites and 3 approvers.</p></article></div>
+</section>
+<section class="contact" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">Summer 2027</p><h2 id="contact-title">Let’s talk<br><em>engineering.</em></h2><p>I’m looking for opportunities in digital hardware, embedded systems, and engineering development.</p></div><div class="contact-links"><a href="mailto:danielchacko07@gmail.com">Email Daniel <span>↗</span></a><a href="https://www.linkedin.com/in/josepd16">LinkedIn <span>↗</span></a><a href="https://github.com/danielj34">GitHub <span>↗</span></a><a href="resume.html">Résumé <span>↗</span></a></div></section>
+</main>
+<footer><span>Daniel Joseph</span><span class="mono">DESIGNED AROUND THE WORK · UPDATED NOV 2026</span><a href="#top">Back to top ↑</a></footer>
+</div>
 </body>
 </html>

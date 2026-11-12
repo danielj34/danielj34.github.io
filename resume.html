@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daniel Joseph's engineering résumé — McMaster Computer Engineering & Management, hardware, embedded systems, robotics, and technical operations.">
+  <title>Résumé — Daniel Joseph</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .resume { max-width: 850px; margin: 0 auto; padding: 55px 0; }
+    .resume h1 { font-size: 64px; line-height: 1.1; margin: 15px 0; }
+    .resume h2 { font-size: 23px; margin: 32px 0 15px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+    .resume h3 { font-size: 16px; margin-top: 20px; }
+    .resume p, .resume li { font-size: 14px; }
+    .resume ul { padding-left: 20px; margin: 10px 0 20px; }
+    .resume li { margin-bottom: 8px; }
+    .resume .meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
+    .resume-links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 12px; }
+    @media print {
+      body { background: white; color: black; }
+      header, footer { display: none; }
+      .page { padding: 0; }
+      .resume { padding: 0; }
+      .resume h1 { font-size: 30px; margin: 0 0 5px; }
+      .resume h2 { font-size: 15px; margin: 15px 0 7px; padding-bottom: 3px; }
+      .resume h3 { font-size: 12px; margin-top: 10px; }
+      .resume p, .resume li { font-size: 10px; line-height: 1.45; }
+      .resume .meta { font-size: 9px; }
+      .resume ul { margin: 5px 0 10px; }
+      .resume li { margin-bottom: 4px; }
+      .resume article { break-inside: avoid; }
+      a { text-decoration: none; }
+      @page { margin: 15mm; }
+    }
+  </style>
+</head>
+<body><div class="page">
+<header><a class="wordmark" href="index.html">DJ<span>/</span></a><nav aria-label="Main navigation"><a href="index.html">← Portfolio</a><a href="mailto:danielchacko07@gmail.com">Contact</a></nav><span class="header-note mono">RÉSUMÉ / NOV 2026</span></header>
+<main class="resume">
+  <p class="eyebrow">Computer Engineering & Management</p>
+  <h1>Daniel <em>Joseph.</em></h1>
+  <p>Toronto, Ontario · Seeking Summer 2027 engineering opportunities</p>
+  <div class="resume-links"><a href="mailto:danielchacko07@gmail.com">danielchacko07@gmail.com</a><a href="https://www.linkedin.com/in/josepd16">LinkedIn</a><a href="https://github.com/danielj34">GitHub</a></div>
+  <h2>Education</h2>
+  <h3>McMaster University — B.Eng. & Management, Computer Engineering</h3>
+  <p class="meta">Level II · Expected April 2029 · Hamilton, Ontario</p>
+  <p>Coursework includes Circuit Analysis, Circuits & Waves, Principles of Programming, and Data Structures & Algorithms.</p>
+  <h2>Projects</h2>
+  <article><h3>32-bit RV32I CPU Core — RTL Design & Verification</h3><p class="meta">SystemVerilog · cocotb · Verilator · Python</p><ul>
+    <li>Designed a synthesizable single-cycle CPU with a 32 × 32-bit register file, ALU, decoder, immediate generator, branch/jump logic, and instruction/data-memory interfaces.</li>
+    <li>Built self-checking regressions and a reusable Python instruction encoder to check register writeback, load/store behavior, branch targets, and jump links.</li>
+    <li>Completed FPGA-targeted synthesis and place-and-route analysis. The iCEBreaker demo used 1,683 of 5,280 logic cells and had an estimated 13.90 MHz Fmax against a 12 MHz target. Physical board validation is pending.</li>
+  </ul></article>
+  <article><h3>Assistive Grabber — Embedded & Electromechanical Prototyping</h3><p class="meta">ENGINEER 1P13 · Team Fri-04 · 2026</p><ul>
+    <li>Contributed concept development, ESP32/PCB prototyping, and electromechanical integration to a wheelchair-mounted grabber designed around limited hand dexterity.</li>
+    <li>Iterated three prototypes and evaluated pickup, load, mass, ergonomics, and mounting requirements. The team’s final design used a simpler switch-based controller following reliability and usability testing.</li>
+  </ul></article>
+  <h2>Experience</h2>
+  <article><h3>McMaster DARE — Electrical Sub-Team Member</h3><p class="meta">September 2026–Present · BELUGA Underwater Drone</p><ul><li>Contribute to sensor power, surface tether, and USBL transmitter systems for wildlife identification and water sampling.</li></ul></article>
+  <article><h3>Acden Environment — Technical Operations Intern</h3><p class="meta">June–August 2026 · Fort McMurray, Alberta</p><ul>
+    <li>Built a Python API pipeline connecting TRUX logistics records and Salesforce Agentforce contract data, reducing manual reconciliation by 85%, with state-machine error handling and recovery.</li>
+    <li>Calculated contract burn rates and hauling cycle times, serializing JSON for SLA analysis to flag under-delivery risk up to three months ahead.</li>
+    <li>Automated purchase-order and PPE workflows using Power Apps, SharePoint, and Power Automate across 12 sites and three approvers, removing two manual touches for eligible requests.</li>
+  </ul></article>
+  <article><h3>Westwood Robotics — Embedded Controls & Mechanical Design Lead, 221E</h3><p class="meta">September 2023–May 2025 · VEX V5 Teams 221E and 221X · Fort McMurray, Alberta</p><ul>
+    <li>Developed autonomous and driver-control software in C++, tuning position and heading PID with IMU/encoder fusion. Recorded ±3 cm and ±0.5° repeatability across 200+ test runs.</li>
+    <li>Built optical-sensor colour sorting and reduced mechanical iteration time by 25% through SolidWorks fit and clearance validation.</li>
+    <li>Won Alberta Provincials with 221X and competed at the 2025 VEX Robotics World Championship in Dallas.</li>
+  </ul></article>
+  <h2>Technical Skills</h2>
+  <p><strong>Digital design</strong> — SystemVerilog, Verilog, RISC-V, cocotb, Verilator, self-checking testbenches.</p>
+  <p><strong>Embedded & hardware</strong> — C++, Embedded C, ESP32, PID, sensor fusion, hardware debugging, motor actuation.</p>
+  <p><strong>CAD & fabrication</strong> — Altium Designer, KiCad, SolidWorks, AutoCAD, 3D printing.</p>
+  <p><strong>Software & tools</strong> — Python, REST APIs, JSON, UML, Git, Power Apps, SharePoint, Power Automate.</p>
+</main>
+<footer><span>Daniel Joseph</span><a href="index.html">Back to portfolio ↗</a><span class="mono">NOV 2026</span></footer>
+</div></body></html>
